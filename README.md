@@ -1,17 +1,12 @@
-# artem
-Добавлена новая задача:
-### Изменения в проекте:
-- Выполнена задача task1
-<li>
-task
-<li>
-text.txt
-<li>
-text2.txt
+<p align="center"><img src="https://res.cloudinary.com/dtfbvvkyp/image/upload/v1566331377/laravel-logolockup-cmyk-red.svg" width="400"></p>
 
-[Мой github](https://github.com/ArtemSharonov)
-![Фото](https://hsto.org/getpro/habr/upload_files/7fb/412/64e/7fb41264e0a3d2d038530fcbee107e18.png)
->Надеемся, Вам понравилась наша работа.
-```html
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-```
+## Лист задач
+
+Для запуска проекта следует выполнить следующие действия:
+
+- Скачать библиотеки php командой `composer install`
+- Создать базу данных MySQL `laravel`.
+- Скопировать файл `.env.example` и создать его с именем  `.env`
+- Указать настройки для работы с базой данных в файле `.env` `DB_DATABASE=laravel DB_USERNAME=root DB_PASSWORD=`
+- Выполнить команду по созданию приватного ключа `php artisan  key:generate`
+- Выполнить команду для наката миграции `php artisan migrate:fresh`
