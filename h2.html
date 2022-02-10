@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>h2</title>
+    <style>
+        body{
+            margin: 0;
+        }
+        .s1, .s2, .s3{
+            position: absolute;
+            height: 100px;
+            width: 100px;
+        }
+        .s1{
+            left: 30px;
+            top: 30px;
+            background-color: darksalmon;
+            z-index: 3;
+        }
+        .s2{
+            background-color: midnightblue;
+            top: 100px;
+            left: 100px;
+            z-index: 2;
+        }
+        .s3{
+            background-color: lime;
+            top: 170px;
+            left: 170px;
+            z-index: 3;
+        }
+    </style>
+</head>
+<body>
+<div class="d1">
+    <div class="s1"></div>
+</div>
+<div class="d2">
+    <div class="s2"></div>
+</div>
+<div class="d3">
+    <div class="s3"></div>
+</div>
+</body>
+</html>
