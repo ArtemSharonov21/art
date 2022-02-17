@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Макет</title>
+    <style>
+        *{
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+        }
+        body{
+            background-color: #868484;
+        }
+        .checkout_box{
+            background-color: white;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.5);
+            width: 300px;
+            margin: 80px auto;
+        }
+        .checkout_box .checkout_header{
+            border-bottom: 1px solid rgba(0,0,0,0.5);
+        }
+        .checkot_content{
+            padding: 12px;
+        }
+        .checkout_box .checkot_content .form_btn_box .btn_form{
+            border: none;
+            border-radius: 3px;
+            background-color: #32adef;
+            color: white;
+            font-weight: 600;
+
+        }
+        .input_box:not(:first-child){
+            padding-bottom: 12px;
+            margin-left: 3%;
+        }
+        .input_box label{
+            display: none;
+        }
+
+        .input_box input[type="text"],
+        .input_box input[type="email"],
+        .input_box input[type="password"]{
+            border: 1px solid grey;
+            border-radius: 3px;
+            background: white;
+            width: 100%;
+            height: 35px;
+            padding: 0 5px;
+        }
+        .form_inputs .input_box{
+
+        }
+    </style>
+</head>
+<body>
+<div class="checkout_box">
+    <div class="checkout_header">
+        Checkout
+    </div>
+    <div class="checkot_content">
+        <form action="" class="checkout_form">
+            <div class="form_inputs">
+                <div class="input_box">
+                    <label for="mm"></label>
+                    <input type="text" name="mm" id="mm" value="" placeholder="MM">
+                </div>
+                <div class="input_box">
+                    <label for="yy"></label>
+                    <input type="text" name="yy" id="yy" value="" placeholder="YY">
+                </div>
+                <div class="input_box">
+                    <label for=""></label>
+                    <input type="text" name="yy" id="yy" value="" placeholder="YY">
+                </div>
+                <div class="input_box">
+                    <label for="yy"></label>
+                    <input type="text" name="yy" id="yy" value="" placeholder="YY">
+                </div>
+            </div>
+            <div class="form_btn_box">
+                <button class="btn_form" name="purchase" id="purchase">Purchase</button>
+            </div>
+        </form>
+    </div>
+</div>
+</body>
+</html>
