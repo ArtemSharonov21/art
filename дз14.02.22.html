@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>form2</title>
+    <style>
+        #date{
+            margin-left: 15px;
+            width: 152px;
+        }
+        #CVC{
+            margin-bottom: 10px;
+            margin-top: 10px;
+            margin-left: 15px;
+            width: 150px;
+        }
+        .s1{
+            position: absolute;
+            height: 50px;
+            width: 50px;
+            border-radius: 50%;
+            background: #F56821;
+            left: 390px;
+            bottom: 75%;
+            text-align: center;
+            color: white;
+            font-size: 30px;
+        }
+        button{
+            padding: 10px;
+            text-align: center;
+            width: 380px;
+            height: 30px;
+            background-color: #75CCFA;
+            color: white;
+            font-weight: bold;
+        }
+        form{
+            box-shadow: 0 0 10px rgba(0,0,0,0.5);
+            width: 400px;
+            padding: 10px;
+            background-color: white;
+            position: absolute;
+            top: calc(50% - 200px);
+            left: calc(50% - 200px);
+            border-radius: 15px;
+            z-index: 1;
+        }
+    </style>
+</head>
+<body bgcolor="#E4E4E1">
+<form action="" method="get">
+    <fieldset>
+        <legend>Checkout</legend>
+        <div class="username">
+            <label for="username"></label>
+            <input type="text" name="username" id="username" value="" placeholder="Your name">
+            <label for="date"></label>
+            <input type="date" name="date" id="date" value="" placeholder="date">
+        </div>
+        <div class="card">
+            <label for="card"></label>
+            <input type="text" name="card" id="card" value=""  placeholder="4111 1111 1111 1111" minlength="16" maxlength="16">
+            <label for="CVC"></label>
+            <input type="password" name="CVC" id="CVC" value=""  placeholder="CVC" minlength="3" maxlength="3">
+        </div>
+        <div>
+            <button type="submit" name="btnSubmit" value="1">Purchase</button>
+        </div>
+        <div class="s1">10$</div>
+    </fieldset>
+</form>
+</body>
+</html>
