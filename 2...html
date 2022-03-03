@@ -4,14 +4,34 @@
     <meta charset="UTF-8">
     <title>2</title>
     <style>
-
+        section{
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            align-items: center;
+            justify-content: center;
+            position: static;
+        }
+        article{
+            width: 25%;
+            height: 700px;
+            border: 1px solid darkgrey;
+            text-align: center;
+            position: relative;
+            background-color: white;
+        }
+        .cards{
+            width: 30%;
+            display: flex;
+            flex-direction: row;
+        }
     </style>
 </head>
 <body>
 <section>
     <article class="fl1">
         <img src="images/img4-1.png" alt="карта">
-        <div>
+        <div class="cards">
             <img src="images/pay1.svg" alt="visa">
             <img src="images/pay2.svg" alt="mastercard">
             <img src="images/pay3.svg" alt="mir">
