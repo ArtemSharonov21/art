@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>1</title>
+    <style>
+        h1{
+            text-align: center;
+            font-size: 3rem;
+            font-weight: bold;
+        }
+        section{
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            align-items: center;
+            justify-content: center;
+            position: static;
+        }
+        article{
+            width: 25%;
+            height: 700px;
+            border: 1px solid darkgrey;
+            text-align: center;
+            position: relative;
+        }
+        article.fl2{
+            height: 720px;
+        }
+        button{
+            color: white;
+            background-color: #e75000;
+            border: none;
+            border-radius: 5px;
+            height: 10%;
+            width: 90%;
+            position: absolute;
+            bottom: 5%;
+            left: 5%;
+            font-size: large;
+            font-weight: bold;
+        }
+        div{
+            position: absolute;
+            bottom: 35%;
+            left: calc(50% - 150px);
+            font-size: 4rem;
+        }
+        div.d2{
+            position: absolute;
+            bottom: 25%;
+            left: calc(50% - 54px);
+            font-size: 1.5rem;
+        }
+        img{
+            position: absolute;
+            top: 25%;
+            left: calc(50% - 71px);
+        }
+        h2{
+            font-weight: bold;
+            font-size: 2rem;
+            border-bottom: 1px solid darkgrey;
+        }
+        span{
+            color: red;
+        }
+    </style>
+</head>
+<body>
+<h1>НАШИ <span>ПРОГРАММЫ</span> ЗАЙМОВ</h1>
+<section>
+    <article class="fl1">
+        <h2>Старт</h2>
+        <img src="images/ico11.png" alt="ракета">
+        <div>
+            До 15 000 Р
+        </div>
+        <div class="d2">до 15 дней <br>0% в день</div>
+        <button>
+            Подробнее
+        </button>
+    </article>
+    <article class="fl2">
+        <h2>Хит</h2>
+        <img src="images/ico12.png" alt="человек">
+        <div>
+            До 30 000 Р
+        </div>
+        <div class="d2">до 30 дней <br>0,9% в день</div>
+        <button>
+            Подробнее
+        </button>
+    </article>
+    <article class="fl3">
+        <h2>Макс</h2>
+        <img src="images/ico13.png" alt="корона">
+        <div>
+            До 60 000 Р
+        </div>
+        <div class="d2">От 10 до 20 недель<br>0,65% в день</div>
+        <button>
+            Подробнее
+        </button>
+    </article>
+</section>
+
+</body>
+</html>
