@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>h1</title>
+    <style>
+        body{
+            margin: 0;
+        }
+        .d1{
+            position: relative;
+            height: 400px;
+            width: 500px;
+            background-color: burlywood;
+        }
+        .s1, .s2, .s3, .s4, .s5, .s6, .s7, .s8, .s9, .s10{
+            position: absolute;
+            height: 60px;
+            width: 60px;
+        }
+        .s1{
+            left: 0;
+            top: 0;
+            background-color: green;
+        }
+        /*.s2{*/
+        /*    right: 50%;*/
+        /*    top: 0;*/
+        /*    background-color: green;*/
+        /*}*/
+        .s3{
+            right:calc(50% - 15px);
+            top: 0;
+            background-color: green;
+        }
+        .s4{
+            right: 0;
+            top: 0;
+            background-color: green;
+        }
+        .s5{
+            left: 0%;
+            top: calc(50% - 15px);
+            background-color: green;
+        }
+        .s6{
+            right: calc(50% - 15px);
+            top: calc(50% - 15px);
+            background-color: green;
+        }
+        .s7{
+            right: 0;
+            top: calc(50% - 15px);
+            background-color: green;
+        }
+        .s8{
+            left: 0;
+            bottom: 0;
+            background-color: green;
+        }
+        .s9{
+            right: calc(50% - 15px);
+            bottom: 0;
+            background-color: green;
+        }
+        .s10{
+            right: 0;
+            bottom: 0;
+            background-color: green;
+        }
+    </style>
+</head>
+<body>
+<div class="d1">
+    <div class="s1"></div>
+    <div class="s2"></div>
+    <div class="s3"></div>
+    <div class="s4"></div>
+    <div class="s5"></div>
+    <div class="s6"></div>
+    <div class="s7"></div>
+    <div class="s8"></div>
+    <div class="s9"></div>
+    <div class="s10"></div>
+</div>
+</body>
+</html>

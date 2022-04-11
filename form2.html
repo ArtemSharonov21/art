@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>form2</title>
+    <style>
+        div
+        .username > input{
+            background-color: darkgrey;
+            width: 300px;
+            height: 50px;
+        }
+        .password > input{
+            background-color: darkgrey;
+            width: 300px;
+            height: 50px;
+        }
+        button{
+            padding: 30px;
+            text-align: center;
+            width: 300px;
+            height: 50px;
+            background-color: green;
+            color: white;
+        }
+        form{
+            box-shadow: 0 0 10px rgba(0,0,0,0.5);
+            width: 400px;
+            padding: 10px;
+            background-color: white;
+            position: absolute;
+            top: calc(50% - 200px);
+            left: calc(50% - 200px);
+        }
+    </style>
+</head>
+<body bgcolor="#32cd32">
+<form action="" method="get">
+    <div class="username">
+        <label for="username"></label>
+        <input type="text" name="username" id="username" value="" placeholder="username">
+    </div>
+    <div class="password">
+        <label for="password"></label>
+        <input type="password" name="password" id="password" value=""  placeholder="password">
+    </div>
+    <div>
+        <button type="submit" name="btnSubmit" value="1">LOGIN</button>
+    </div>
+    <div>
+        <p>Not registered?<a href=""> Create an account</a></p>
+    </div>
+</form>
+</body>
+</html>
